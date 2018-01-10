@@ -13,6 +13,7 @@ namespace RMPage
         {
             InitializeComponent();
 
+
             MainPage = new RMPage.MainPage();
         }
 
