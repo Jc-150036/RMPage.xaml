@@ -1,17 +1,53 @@
 ﻿using System;
+
 using System.Collections.Generic;
+
 using System.Linq;
+
 using System.Text;
-using System.Threading.Tasks;
+
+
+
 using Xamarin.Forms;
 
-namespace RMPage
+
+
+namespace MuscleTrainingRecords00
+
 {
-    public partial class MainPage : ContentPage
+
+    public class RMPageCS : ContentPage
+
     {
-        public MainPage()
+
+        public RMPageCS()
+
         {
-            InitializeComponent();
+
+            Title = "RM計算";
+
+            Content = new StackLayout
+
+            {
+
+                Children = {
+
+                    new Label {
+
+                        Text = "Welcome to RMPage!",
+
+                        HorizontalOptions = LayoutOptions.Center,
+
+                        VerticalOptions = LayoutOptions.CenterAndExpand
+
+                    }
+
+                }
+
+            };
+
         }
+
     }
+
 }
